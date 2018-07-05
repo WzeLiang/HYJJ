@@ -1,7 +1,7 @@
 .home{
   .content-box{
     width: 1000px;
-    margin: 40px auto 200px;
+    margin: 40px auto 40px;
     .box-list{
       .list-item{
         padding: 20px 30px;
@@ -37,6 +37,74 @@
           }
         }
       }
+    }
+    .box-project{
+      margin-top: 30px;
+      .project-title{
+        font-size: 22px;
+        margin: 50px 0;
+      }
+      .project-list{
+        display: flex;
+        justify-content: space-between;
+        .project-item{
+
+          width: 300px;
+          transition: all .5s ease;
+          &:hover{
+            box-shadow: 0 10px 15px rgba(0,0,0,.2);
+            transform: translate3d(0,-15px,10px);
+          }
+          .item-img{
+            img{
+              width: 300px;
+            }
+          }
+          .item-content{
+            padding: 20px;
+            border: 1px solid #cccccc;
+            .content-title{
+              font-size: 18px;
+              margin-bottom: 5px;
+            }
+            .content-alreadymoney{
+              font-size: 14px;
+              .money-numb{
+                margin-left: 5px;
+                font-size: 17px;
+              }
+            }
+            .content-member{
+              display: flex;
+              justify-content: space-between;
+              .member-info{
+                font-size: 14px;
+                .member-numb{
+                  font-size: 17px;
+                }
+              }
+              .member-go{
+                width: 50px;
+                height: 30px;
+                border-radius: 15px;
+                text-align: center;
+                line-height: 30px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .map-box{
+    padding: 40px 0;
+    width: 100%;
+    background: #f6f6f6;
+    .box-img{
+      width: 1200px;
+      min-width: 1200px;
+      margin: 0 auto;
     }
   }
 }

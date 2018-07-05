@@ -1,0 +1,53 @@
+.about .content {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 40px auto;
+}
+.about .content .content-tab {
+  display: flex;
+  justify-content: space-around;
+}
+.about .content .content-tab .tab-item {
+  padding: 10px 15px;
+}
+.about .content .content-box .box-list .list-ul .ul-li {
+  padding: 0;
+  display: flex;
+  list-style: disc;
+  justify-content: space-between;
+  padding: 30px 15px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.03);
+  transition: .7s;
+}
+.about .content .content-box .box-list .list-ul .ul-li:hover {
+  transform: translate3d(0, -5px, 0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.about .content .content-box .box-list .list-ul .ul-li:hover .li-info {
+  color: #b98d3a;
+}
+.about .page {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.about .page .page-box {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.about .page .page-box .page-item {
+  padding: 5px 10px;
+  border: 1px solid rgba(199, 154, 87, 0.51);
+  margin-left: 10px;
+}
+.about .page .page-box .page-item:hover {
+  border: 1px solid #c79a57;
+  background: rgba(199, 154, 87, 0.51);
+}
+.about .page .page-box .active {
+  background: #c79a57;
+  color: white;
+}

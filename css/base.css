@@ -83,10 +83,22 @@ html {
 .footerbox .footer .footer-code img {
   width: 110px;
 }
+.home,
+.about {
+  padding-bottom: 200px;
+}
 a {
   display: block;
   color: black!important;
   text-decoration: none!important;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.back-garden {
+  background: #eba016;
+  color: white;
 }
 .border-garden {
   border: solid 1px #ddc199;
@@ -101,6 +113,15 @@ a {
 .text-gray {
   color: #666666;
 }
-div {
+.text-black {
+  color: black;
+}
+.text-red {
+  color: red;
+}
+.text-blod {
+  font-weight: bold;
+}
+.text-justify {
   text-align: justify;
 }
