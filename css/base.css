@@ -1,0 +1,106 @@
+html {
+  min-width: 1200px!important;
+  font-family: 微软雅黑;
+}
+.headerbox {
+  padding-top: 2rem;
+}
+.headerbox .header {
+  width: 1000px;
+  padding: .3rem 0!important;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto!important;
+}
+.headerbox .header .header-logo img {
+  width: 12rem;
+}
+.headerbox .header .header-tablist {
+  display: flex;
+  justify-content: space-between;
+}
+.headerbox .header .header-tablist .tab-item {
+  font-size: 1rem;
+  padding: .5rem 1.5rem;
+}
+.headerbox .header .header-tablist .tab-item a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.headerbox .header .header-tablist .visit a {
+  color: #b98d3a!important;
+}
+.banner {
+  position: relative;
+  min-width: 1200px;
+  overflow: hidden;
+}
+.banner img {
+  min-width: 1200px;
+}
+.footerbox {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  background: #232323;
+  bottom: 0;
+}
+.footerbox .footer {
+  padding: 30px 0;
+  color: white;
+  width: 1000px;
+  margin: 0 auto!important;
+  display: flex;
+  justify-content: space-between;
+}
+.footerbox .footer .footer-logo img {
+  width: 80px;
+}
+.footerbox .footer .footer-content {
+  padding-top: 10px;
+}
+.footerbox .footer .footer-content .content-item {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.footerbox .footer .footer-content .content-item:last-child {
+  margin-bottom: 0;
+}
+.footerbox .footer .footer-content .content-tel {
+  display: flex;
+  font-size: 26px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.footerbox .footer .footer-content .content-tel img {
+  width: 30px;
+  margin-right: 10px;
+}
+.footerbox .footer .footer-content .content-tel p {
+  margin: 0!important;
+}
+.footerbox .footer .footer-code img {
+  width: 110px;
+}
+a {
+  display: block;
+  color: black!important;
+  text-decoration: none!important;
+}
+.border-garden {
+  border: solid 1px #ddc199;
+  border-radius: 2px;
+}
+.text-garden {
+  color: #b98d3a;
+}
+.text-lightgray {
+  color: #aaaaaa;
+}
+.text-gray {
+  color: #666666;
+}
+div {
+  text-align: justify;
+}
