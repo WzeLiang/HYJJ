@@ -1,5 +1,5 @@
 .home .content-box {
-  width: 1000px;
+  width: 1200px;
   margin: 40px auto 40px;
 }
 .home .content-box .box-list .list-item {
@@ -44,50 +44,6 @@
 .home .content-box .box-project .project-list {
   display: flex;
   justify-content: space-between;
-}
-.home .content-box .box-project .project-list .project-item {
-  width: 300px;
-  transition: all .5s ease;
-}
-.home .content-box .box-project .project-list .project-item:hover {
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-  transform: translate3d(0, -15px, 10px);
-}
-.home .content-box .box-project .project-list .project-item .item-img img {
-  width: 300px;
-}
-.home .content-box .box-project .project-list .project-item .item-content {
-  padding: 20px;
-  border: 1px solid #cccccc;
-}
-.home .content-box .box-project .project-list .project-item .item-content .content-title {
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-.home .content-box .box-project .project-list .project-item .item-content .content-alreadymoney {
-  font-size: 14px;
-}
-.home .content-box .box-project .project-list .project-item .item-content .content-alreadymoney .money-numb {
-  margin-left: 5px;
-  font-size: 17px;
-}
-.home .content-box .box-project .project-list .project-item .item-content .content-member {
-  display: flex;
-  justify-content: space-between;
-}
-.home .content-box .box-project .project-list .project-item .item-content .content-member .member-info {
-  font-size: 14px;
-}
-.home .content-box .box-project .project-list .project-item .item-content .content-member .member-info .member-numb {
-  font-size: 17px;
-}
-.home .content-box .box-project .project-list .project-item .item-content .content-member .member-go {
-  width: 50px;
-  height: 30px;
-  border-radius: 15px;
-  text-align: center;
-  line-height: 30px;
-  font-size: 14px;
 }
 .home .map-box {
   padding: 40px 0;

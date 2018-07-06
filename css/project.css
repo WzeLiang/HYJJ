@@ -1,0 +1,53 @@
+.project .content .content-box .box-list .list-projectcontainer {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project .content .content-box .box-list .list-specialcontainer {
+  padding-top: 50px;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-explain {
+  display: flex;
+  justify-content: space-between;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-explain .explain-img {
+  width: 635px;
+  margin-right: 30px;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-explain .explain-img img {
+  margin-bottom: 10px ;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-explain .explain-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-explain .explain-article .article-box {
+  height: 50%;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-explain .explain-article .article-box .article-title {
+  font-size: 20px;
+  margin: 12px auto 15px ;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-explain .explain-article .article-box .article-info {
+  font-size: 15px;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-explain .explain-article .article-box .article-info p {
+  margin-bottom: 10px;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-harvest .harvest-list .harvest-item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-harvest .harvest-list .harvest-item .item-content {
+  margin-left: 50px;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-harvest .harvest-list .harvest-item .item-content .content-title {
+  font-size: 20px;
+  margin: 12px auto 15px;
+}
+.project .content .content-box .box-list .list-specialcontainer .special-harvest .harvest-list .harvest-item .item-content .content-info {
+  font-size: 15px;
+}

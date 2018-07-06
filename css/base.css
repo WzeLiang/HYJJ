@@ -47,7 +47,7 @@ html {
   bottom: 0;
 }
 .footerbox .footer {
-  padding: 30px 0;
+  padding: 20px 0;
   color: white;
   width: 1000px;
   margin: 0 auto!important;
@@ -83,9 +83,151 @@ html {
 .footerbox .footer .footer-code img {
   width: 110px;
 }
+.content {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto 40px;
+}
+.content .content-tab {
+  display: flex;
+  justify-content: space-around;
+}
+.content .content-tab .tab-item {
+  padding: 20px 15px;
+  position: relative;
+}
+.content .content-tab .tab-item span {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  left: 37px;
+  bottom: 0;
+  background: white;
+}
+.content .content-tab .tab-active {
+  color: #b98d3a!important;
+}
+.content .content-tab .tab-active span {
+  background: #b98d3a;
+}
+.content .content-box .box-list {
+  transition: all .5s ease;
+  position: relative;
+  overflow: hidden;
+}
+.content .content-box .box-list .list-ul {
+  transition: all 1s ease;
+}
+.content .content-box .box-list .list-ul .ul-li {
+  padding: 0;
+  display: flex;
+  list-style: disc;
+  justify-content: space-between;
+  padding: 30px 20px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.03);
+  transition: .5s;
+}
+.content .content-box .box-list .list-ul .ul-li:hover {
+  transform: scale(1.01, 1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.content .content-box .box-list .list-ul .ul-li:hover .li-info {
+  color: #b98d3a;
+}
+.content .content-box .box-list .list-content {
+  transition: all .5s ease;
+  position: absolute;
+  width: 1200px;
+  min-width: 1200px;
+  left: 1200px;
+  top: 0;
+  height: 600px;
+  border: 1px solid black;
+  background: white;
+}
+.content .content-box .box-acitve {
+  display: block;
+}
+.content .content-box .box-hidden {
+  display: none;
+}
+.page {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 50px auto;
+  font-size: 14px;
+}
+.page .page-box {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.page .page-box .page-item {
+  padding: 5px 10px;
+  border: 1px solid rgba(199, 154, 87, 0.51);
+  margin-left: 10px;
+}
+.page .page-box .page-item:hover {
+  border: 1px solid #c79a57;
+  background: rgba(199, 154, 87, 0.51);
+}
+.page .page-box .active {
+  background: #c79a57;
+  color: white;
+}
+.project-item {
+  width: 360px;
+  transition: all .5s ease;
+  margin-bottom: 20px;
+}
+.project-item:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -15px, 10px);
+}
+.project-item .item-img img {
+  width: 100%;
+}
+.project-item .item-content {
+  padding: 20px;
+  border: 1px solid #cccccc;
+}
+.project-item .item-content .content-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.project-item .item-content .content-alreadymoney {
+  font-size: 14px;
+}
+.project-item .item-content .content-alreadymoney .money-numb {
+  margin-left: 5px;
+  font-size: 17px;
+}
+.project-item .item-content .content-member {
+  display: flex;
+  justify-content: space-between;
+}
+.project-item .item-content .content-member .member-info {
+  font-size: 14px;
+}
+.project-item .item-content .content-member .member-info .member-numb {
+  font-size: 17px;
+}
+.project-item .item-content .content-member .member-go {
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+}
 .home,
-.about {
-  padding-bottom: 200px;
+.about,
+.news,
+.publicmsg,
+.project {
+  padding-bottom: 180px;
 }
 a {
   display: block;
@@ -124,4 +266,8 @@ ul {
 }
 .text-justify {
   text-align: justify;
+}
+.h-title {
+  font-size: 24px;
+  margin: 100px auto;
 }
