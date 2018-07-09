@@ -1,0 +1,101 @@
+.donation .content .content-box .box-list .list-step-title {
+  margin: 80px 0 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.donation .content .content-box .box-list .list-step-title .step-item .item-numb {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  background: #d9d9d9;
+  color: white;
+  margin-bottom: 20px;
+  position: relative;
+}
+.donation .content .content-box .box-list .list-step-title .step-item .item-numb .back-gray {
+  position: absolute;
+  left: 40px;
+  top: 17.5px;
+  height: 5px;
+  width: 500px;
+  background: #d9d9d9;
+}
+.donation .content .content-box .box-list .list-step-title .step-item .item-numb .back-progress1 {
+  transition: all .5s ease;
+  position: absolute;
+  background: #44aded;
+  left: 40px;
+  top: 17.5px;
+  height: 5px;
+  width: 500px;
+}
+.donation .content .content-box .box-list .list-step-title .step-item .item-numb .back-progress2 {
+  transition: all .5s ease;
+  position: absolute;
+  background: #44aded;
+  left: 40px;
+  top: 17.5px;
+  height: 5px;
+  width: 0;
+}
+.donation .content .content-box .box-list .list-step-title .step-item .numb-active {
+  background: #44aded;
+}
+.donation .content .content-box .box-list .list-step-content {
+  position: relative;
+  height: 1200px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 {
+  z-index: -1;
+  display: none;
+  background: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1200px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .form-text {
+  width: 250px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .form-panel {
+  width: 750px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box2 {
+  width: 100%;
+  z-index: 100;
+  background: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1200px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box2 .box2-title {
+  margin-bottom: 80px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box2 .form-group {
+  display: flex;
+  justify-content: space-between;
+}
+.donation .content .content-box .box-list .list-step-content .step-box2 .form-group .group-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.donation .content .content-box .box-list .list-step-content .step-box2 .form-group .group-item .item-info {
+  width: 400px;
+  background: white;
+  padding: 10px 40px;
+  border: 1px solid red;
+  margin-left: 30px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box2 .form-group .group-item .item-info img {
+  width: 36px;
+  height: 36px;
+}

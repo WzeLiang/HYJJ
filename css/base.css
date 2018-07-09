@@ -40,6 +40,7 @@ html {
   min-width: 1200px;
 }
 .footerbox {
+  z-index: 9999;
   position: fixed;
   width: 100%;
   left: 0;
@@ -84,8 +85,8 @@ html {
   width: 110px;
 }
 .content {
-  width: 1200px;
-  min-width: 1200px;
+  width: 1000px;
+  min-width: 1000px;
   margin: 0 auto 40px;
 }
 .content .content-tab {
@@ -226,7 +227,8 @@ html {
 .about,
 .news,
 .publicmsg,
-.project {
+.project,
+.donation {
   padding-bottom: 180px;
 }
 a {
@@ -270,4 +272,7 @@ ul {
 .h-title {
   font-size: 24px;
   margin: 100px auto;
+}
+.form-must {
+  color: red;
 }

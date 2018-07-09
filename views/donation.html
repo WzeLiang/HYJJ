@@ -5,8 +5,10 @@
     <title>在线捐赠</title>
     <link rel="icon" type="image/x-icon" href="../images/title-logo.png" />
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../js/base.js"></script>
     <link rel="stylesheet" href="../css/base.css">
-
+    <link rel="stylesheet" href="../css/donation.css">
 </head>
 <body>
 <div class="donation">
@@ -50,7 +52,176 @@
     <div class="banner">
         <img src="../images/about-banner.png" class="img-fluid" alt="">
     </div>
+    <div class="content">
+        <div class="content-tab border-bottom">
+            <div class="tab-item">我要捐赠<span></span></div>
+            <div class="tab-item">捐赠查询<span></span></div>
+            <div class="tab-item">善款支出<span></span></div>
+        </div>
+        <div class="content-box">
+            <div class="box-list">
+                <div class="list-step-title">
+                    <div class="step-item text-center">
+                        <div class="item-numb numb-active">1
+                            <span class="back-gray"></span>
+                            <span class="back-progress1"></span>
+                            <span></span>
+                        </div>
+                        <div class="item-text text-gray">捐赠信息</div>
+                    </div>
+                    <div class="step-item text-center">
+                        <div class="item-numb numb-active">2
+                            <span class="back-gray"></span>
+                            <span class="back-progress2"></span>
+                        </div>
+                        <div class="item-text text-gray">支付</div>
+                    </div>
+                    <div class="step-item text-center">
+                        <div class="item-numb">3</div>
+                        <div class="item-text text-gray">完成</div>
+                    </div>
+                </div>
+                <div class="list-step-content">
+                    <div class="step-box1">
+                        <div class="box1-form">
+                            <form action="#">
+                                <div class="form-item form-group">
+                                    <div class="form-text ">
+                                        <div> <span class="form-must">*</span>捐赠项目</div>
+                                    </div>
+                                    <div class="form-panel">
+                                        <select class="form-control" name="donation-name" id="donation-name">
+                                            <option value="" selected>与星星的孩子共享自然</option>
+                                            <option value="" >壹元温暖餐</option>
+                                            <option value="" >留守儿童助健康</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-item form-group">
+                                    <div class="form-text">
+                                        <div> 捐赠人</div>
+                                    </div>
+                                    <div class="form-panel">
+                                        <input  class="form-control" type="text" placeholder="匿名用户">
+                                    </div>
+                                </div>
+                                <div class="form-item form-group">
+                                    <div class="form-text">
+                                        <div><span class="form-must">*</span> 邮箱</div>
+                                    </div>
+                                    <div class="form-panel">
+                                        <input class="form-control" type="email" placeholder="请输入邮箱账户">
+                                    </div>
+                                </div>
+                                <div class="form-item form-group">
+                                    <div class="form-text">
+                                        <div><span class="form-must">*</span> 捐赠金额</div>
+                                    </div>
+                                    <div class="form-panel">
+                                        <div class="radio-box">
+                                            <input type="radio">10元
+                                            <input type="radio">20元
+                                            <input type="radio">50元
+                                            <input type="radio">100元
+                                        </div>
+                                        <div class="money-input">
+                                            其他<input class="form-control" type="email" placeholder="请输入捐赠金额，需为整数">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-item form-group">
+                                    <div class="form-text">
+                                        <div><span class="form-must">*</span> 是否匿名</div>
+                                    </div>
+                                    <div class="form-panel">
+                                        <input type="radio" >是
+                                        <input type="radio" >否
+                                    </div>
+                                </div>
+                                <div class="form-item form-group">
+                                    <div class="form-text">
+                                        <div><span class="form-must">*</span> 是否需要捐赠票据</div>
+                                    </div>
+                                    <div class="form-panel">
+                                        <input type="radio" >是
+                                        <input type="radio" >否
+                                    </div>
+                                </div>
+                                <div class=" form-group">
+                                    <input type="radio">我已阅读并同意弘毅扶贫慈善基金会的 <a href="#">《捐赠协议》</a>
+                                </div>
+                                <div class="form-group text-center ">
+                                    <button type="submit">确认捐赠</button>
+                                </div>
+                            </form>
 
+                        </div>
+                        <div class="donation-explan">
+                            <div class="explan-title text-center">捐赠票据索要说明</div>
+                            <div class="explan-info text-justify">
+                                感谢您对我们该项目的支持，如果您需要开具捐赠收据，请在捐赠是注明所示填写捐赠收据信息或发电站邮件至
+                                客服邮箱XX@XXX.org。索要捐赠收据。
+                            </div>
+                            <div class="get-method">
+                                <div class="method-title">邮寄方式：</div>
+                                <div class="method-info">
+                                    基于捐赠成本考虑，1000元以上的捐赠将以快递方式寄出，100元以上1000元以下的捐赠
+                                    将以挂号信的方式寄出，100元以下的捐赠请您自取，您可将多次捐赠累计集中开具。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="donation-else">
+                            <div class="else-title text-center text-garden h-title">其他捐赠方式</div>
+                            <div class="else-info text-center">
+                                <div class="info-item">
+                                    收款人名称:海南弘毅扶贫慈善基金会
+                                </div>
+                                <div class="info-item">
+                                    收款人账号:1011389600000173
+                                </div>
+                                <div class="info-item">
+                                    开户银行:海口农村商业银行股份有限公司海府支行
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="step-box2">
+                        <div class="box2-title text-center">
+                            请选择支付方式
+                        </div>
+                        <form action="#">
+                           <div class="form-group">
+                               <div class="group-item">
+                                   <input type="radio" name="way">
+                                   <div class="item-info">
+                                       <img src="../images/wx-pay.png" alt="">
+                                       微信支付
+                                   </div>
+                               </div>
+                               <div class="group-item">
+                                   <input type="radio" name="way">
+                                   <div class="item-info">
+                                       <img src="../images/zfb-pay.png" alt="">
+                                       微信支付
+                                   </div>
+                               </div>
+                           </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="box-list ">
+
+
+            </div>
+            <div class="box-list ">
+
+
+            </div>
+
+        </div>
+    </div>
     <div class="footerbox">
         <div class="footer">
             <div class="footer-logo">
