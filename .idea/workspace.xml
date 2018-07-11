@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9fab6b9-f65e-478b-9dd8-fd9f556524b6" name="Default" comment="qaaa">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/donation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/donation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/about-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer-code.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/footer-code.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home-map.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/home-map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/project-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/project-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/base.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/base.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/donation.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/donation.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/donation.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/donation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,8 +46,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+                <state relative-caret-position="133">
+                  <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -144,8 +130,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -191,7 +177,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
@@ -260,15 +246,15 @@
       <workItem from="1531197990911" duration="7011000" />
       <workItem from="1531217090903" duration="326000" />
       <workItem from="1531217502044" duration="738000" />
-      <workItem from="1531273693259" duration="1606000" />
+      <workItem from="1531273693259" duration="1710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60540000" />
+    <option name="totallyTimeSpent" value="60644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10872396" />
@@ -680,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="133">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
