@@ -3,8 +3,9 @@ $(function () {
     $(".content .content-box .box-list").eq(0).show().siblings().hide()
     $(".content .content-tab .tab-item").click(function () {
         $(this).addClass("tab-active").siblings().removeClass("tab-active")
-        var index=$(this).index()
-        $(".content .content-box .box-list").eq(index).show().siblings().hide()
+        var aaa=$(this).index()
+        console.log((aaa))
+        $(".content .content-box .box-list").eq(aaa).show().siblings().hide()
     })
     $(".box-list .list-ul .ul-li").click(function () {
         $(this).parents(".list-ul").css("left","-1200px")

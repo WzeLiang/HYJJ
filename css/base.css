@@ -2,9 +2,6 @@ html {
   min-width: 1200px!important;
   font-family: 微软雅黑;
 }
-.headerbox {
-  padding-top: 2rem;
-}
 .headerbox .header {
   width: 1000px;
   padding: .3rem 0!important;
