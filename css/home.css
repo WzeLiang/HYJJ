@@ -1,5 +1,5 @@
 .home .content-box {
-  width: 1200px;
+  width: 1000px;
   margin: 40px auto 40px;
 }
 .home .content-box .box-list .list-item {
@@ -54,4 +54,12 @@
   width: 1200px;
   min-width: 1200px;
   margin: 0 auto;
+}
+.home .project-box .box1,
+.home .project-box .box2 {
+  width: 1000px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }

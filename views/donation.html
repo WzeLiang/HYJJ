@@ -51,7 +51,8 @@
         </div>
     </div>
     <div class="banner">
-        <img src="../images/about-banner.png" class="img-fluid" alt="">
+        <div class="banner-name">在线捐赠</div>
+        <img src="../images/donation-banner.png" class="img-fluid" alt="">
     </div>
     <div class="content">
         <div class="content-tab border-bottom">
@@ -119,14 +120,14 @@
                                         <div><span class="form-must">*</span> 捐赠金额</div>
                                     </div>
                                     <div class="form-panel">
-                                        <div class="radio-box">
-                                            <input type="radio">10元
-                                            <input type="radio">20元
-                                            <input type="radio">50元
-                                            <input type="radio">100元
+                                        <div class="radio-box momey-box">
+                                           <div class="momey-item radio-active">￥10</div>
+                                           <div class="momey-item">￥20</div>
+                                           <div class="momey-item">￥50</div>
+                                           <div class="momey-item">￥100</div>
                                         </div>
                                         <div class="money-input">
-                                            其他<input class="form-control" type="email" placeholder="请输入捐赠金额，需为整数">
+                                            <div>其他</div><input class="form-control" type="email" placeholder="请输入捐赠金额，需为整数">
                                         </div>
                                     </div>
                                 </div>
@@ -134,21 +135,21 @@
                                     <div class="form-text">
                                         <div><span class="form-must">*</span> 是否匿名</div>
                                     </div>
-                                    <div class="form-panel">
-                                        <input type="radio" >是
-                                        <input type="radio" >否
+                                    <div class="form-panel anonymous-box">
+                                        <div class="box-item item-active">是</div>
+                                        <div class="box-item">否</div>
                                     </div>
                                 </div>
                                 <div class="form-item form-group">
                                     <div class="form-text">
                                         <div><span class="form-must">*</span> 是否需要捐赠票据</div>
                                     </div>
-                                    <div class="form-panel">
-                                        <input type="radio" >是
-                                        <input type="radio" >否
+                                    <div class="form-panel bill-box">
+                                        <div class="box-item item-active">是</div>
+                                        <div class="box-item">否</div>
                                     </div>
                                 </div>
-                                <div class=" form-group">
+                                <div class=" form-group agreement">
                                     <input type="radio">我已阅读并同意弘毅扶贫慈善基金会的 <a href="#">《捐赠协议》</a>
                                 </div>
                                 <div class="form-group text-center ">
@@ -158,14 +159,14 @@
 
                         </div>
                         <div class="donation-explan">
-                            <div class="explan-title text-center">捐赠票据索要说明</div>
+                            <div class="explan-title">捐赠票据索要说明</div>
                             <div class="explan-info text-justify">
                                 感谢您对我们该项目的支持，如果您需要开具捐赠收据，请在捐赠是注明所示填写捐赠收据信息或发电站邮件至
                                 客服邮箱XX@XXX.org。索要捐赠收据。
                             </div>
                             <div class="get-method">
                                 <div class="method-title">邮寄方式：</div>
-                                <div class="method-info">
+                                <div class="method-info text-justify">
                                     基于捐赠成本考虑，1000元以上的捐赠将以快递方式寄出，100元以上1000元以下的捐赠
                                     将以挂号信的方式寄出，100元以下的捐赠请您自取，您可将多次捐赠累计集中开具。
                                 </div>
@@ -230,7 +231,79 @@
 
 
         </div>
-            <div class="box-list">aaaa</div>
+            <div class="box-list">
+                <div class="list-searchbox">
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <label for="f1" >账号</label>
+                            <input type="text" id="f1" class="form-control" placeholder="请输入账号"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="f2">密码</label>
+                            <input type="password" id="f2" class="form-control" placeholder="请输入密码"/>
+                        </div>
+                        <button type="submit" class="btn btn-danger">进入</button>
+                    </form>
+                </div>
+                <div class="list-table">
+                    <table class="table table-bordered text-center text-gray" >
+                        <tr>
+                            <td>捐赠来源</td>
+                            <td>捐赠金额(单位：元)</td>
+                            <td>捐赠日期</td>
+                            <td>捐赠项目</td>
+                        </tr>
+                        <tr>
+                            <td>匿名</td>
+                            <td>10</td>
+                            <td>2016-08-02</td>
+                            <td>亲子公益帮</td>
+                        </tr>
+                        <tr>
+                            <td>匿名</td>
+                            <td>10</td>
+                            <td>2016-08-02</td>
+                            <td>金轮椅孵化器</td>
+                        </tr>
+                        <tr>
+                            <td>中国科学院化学研究所工会</td>
+                            <td>10</td>
+                            <td>2016-08-02</td>
+                            <td>弘毅慈善扶贫基金会</td>
+                        </tr>
+                        <tr>
+                            <td>匿名</td>
+                            <td>10</td>
+                            <td>2016-08-02</td>
+                            <td>关爱农民工子女教育</td>
+                        </tr>
+                        <tr>
+                            <td>匿名</td>
+                            <td>10</td>
+                            <td>2016-08-02</td>
+                            <td>关爱贫困女童生理健康</td>
+                        </tr>
+                        <tr>
+                            <td>匿名</td>
+                            <td>10</td>
+                            <td>2016-08-02</td>
+                            <td>助残圆梦计划</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="page text-center">
+                    <div class="page-box ">
+                        <div class="page-item">上一页</div>
+                        <div class="page-item active">1</div>
+                        <div class="page-item">2</div>
+                        <div class="page-item">3</div>
+                        <div class="page-item">4</div>
+                        <div class="page-item">5</div>
+                        <div class="page-item">6</div>
+                        <div class="page-item">下一页</div>
+                    </div>
+                </div>
+            </div>
             <div class="box-list">bbbb</div>
     </div>
     <div class="footerbox">

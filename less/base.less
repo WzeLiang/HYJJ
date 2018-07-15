@@ -34,6 +34,13 @@ html{
 }
 .banner{
   position:relative;min-width:1200px;overflow:hidden;
+  .banner-name{
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    font-size: 22px;
+    color: white;
+  }
   img{
     min-width: 1200px;
    // position:absolute;top:0;left:50%;
@@ -164,12 +171,12 @@ html{
   }
 }
 .page{
-  width: 1200px;
-  min-width: 1200px;
+  width: 1000px;
+  min-width: 1000px;
   margin: 50px auto;
   font-size: 14px;
   .page-box{
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -179,7 +186,7 @@ html{
       margin-left: 10px;
       &:hover{
         border: 1px solid rgba(199,154,87,1);
-        background: rgba(199,154,87,.51);;
+        background: rgba(199,154,87,.51);
       }
     }
     .active{
@@ -190,9 +197,9 @@ html{
 }
 //项目item
 .project-item{
-  width: 360px;
+  width: 310px;
   transition: all .5s ease;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   &:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.2);
     transform: translate3d(0,-15px,10px);
@@ -237,7 +244,7 @@ html{
   }
 }
 
-.home,.about,.news,.publicmsg,.project,.donation{
+.home,.about,.news,.publicmsg,.project,.donation,.contactus{
   padding-bottom: 180px;
 }
 a{

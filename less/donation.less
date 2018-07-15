@@ -52,7 +52,7 @@
         }
         .list-step-content{
           position: relative;
-          height: 1200px;
+          min-height: 1400px;
           .step-box1{
             z-index: 101;
             background: white;
@@ -67,15 +67,101 @@
                   display: flex;
                   justify-content: space-between;
                   padding: 10px;
+                  .anonymous-box,.bill-box{
+                    display: flex;
+                    .box-item{
+                      width: 60px;
+                      height: 30px;
+                      text-align: center;
+                      line-height: 28px;
+                      border-radius: 15px;
+                      color: #b1dc4e;
+                      margin-right: 40px;
+                      border: 1px solid #b1dc4e;
+                    }
+                    .item-active{
+                      color: white;
+                      background: #b1dc4e;
+                    }
+                  }
                   .form-text{
                     width: 250px;
                   }
                   .form-panel{
-                    width: 750px;
+                    width: 738px;
+                    .momey-box{
+                      display: flex;
+                      margin-bottom: 25px;
+                      .momey-item{
+                        text-align: center;
+                        line-height: 30px;
+                        height: 30px;
+                        font-size: 16px;
+                        width: 60px;
+                        border-radius: 15px;
+                        color: #f0b750;
+                        border: 1px solid #f0b750;
+                        margin-right: 40px;
+                      }
+                      .radio-active{
+                        color: white;
+                        background: #f0b750;
+                      }
+                    }
+                    .money-input{
+                     display: flex;
+                      div{
+                        width: 40px;
+                        line-height: 40px;
+                        margin-right: 10px;
+                      }
+                    }
+                  }
 
+                }
+                .form-group{
+                  #tobox2{
+                    margin: 50px 0;
+                    width: 300px;
+                    background: #eba016;
+                    outline: none;
+                    border: none;
+                    color: white;
+                    height: 40px;
+                    line-height: 35px;
+                    border-radius: 20px;
+                  }
+                }
+                .agreement{
+                  display: flex;
+                  a{
+                    color: #44aded!important;
                   }
                 }
               }
+            }
+            .donation-explan{
+              background: #f9f9f9;
+              padding: 40px 30px;
+              .explan-title{
+                font-size: 22px;
+                margin-bottom: 20px;
+              }
+              .explan-info{
+                margin-bottom: 40px;
+              }
+            }
+            .donation-else{
+              .else-title{
+
+              }
+              .else-info{
+                .info-item{
+                  font-size: 18px;
+                  margin-bottom: 20px;
+                }
+              }
+
             }
           }
           .step-box2{
@@ -158,6 +244,13 @@
                 justify-content: space-between;
               }
             }
+          }
+        }
+        .list-searchbox{
+          margin: 40px 0 40px;
+          form{
+            display: flex;
+            justify-content: space-between;
           }
         }
       }

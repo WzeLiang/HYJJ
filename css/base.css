@@ -33,6 +33,13 @@ html {
   min-width: 1200px;
   overflow: hidden;
 }
+.banner .banner-name {
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  font-size: 22px;
+  color: white;
+}
 .banner img {
   min-width: 1200px;
 }
@@ -151,13 +158,13 @@ html {
   display: none;
 }
 .page {
-  width: 1200px;
-  min-width: 1200px;
+  width: 1000px;
+  min-width: 1000px;
   margin: 50px auto;
   font-size: 14px;
 }
 .page .page-box {
-  width: 600px;
+  width: 500px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -176,9 +183,9 @@ html {
   color: white;
 }
 .project-item {
-  width: 360px;
+  width: 310px;
   transition: all .5s ease;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .project-item:hover {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
@@ -225,7 +232,8 @@ html {
 .news,
 .publicmsg,
 .project,
-.donation {
+.donation,
+.contactus {
   padding-bottom: 180px;
 }
 a {

@@ -46,7 +46,7 @@
 }
 .donation .content .content-box .box-list .list-step-content {
   position: relative;
-  height: 1200px;
+  min-height: 1400px;
 }
 .donation .content .content-box .box-list .list-step-content .step-box1 {
   z-index: 101;
@@ -62,11 +62,90 @@
   justify-content: space-between;
   padding: 10px;
 }
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .anonymous-box,
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .bill-box {
+  display: flex;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .anonymous-box .box-item,
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .bill-box .box-item {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 15px;
+  color: #b1dc4e;
+  margin-right: 40px;
+  border: 1px solid #b1dc4e;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .anonymous-box .item-active,
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .bill-box .item-active {
+  color: white;
+  background: #b1dc4e;
+}
 .donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .form-text {
   width: 250px;
 }
 .donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .form-panel {
-  width: 750px;
+  width: 738px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .form-panel .momey-box {
+  display: flex;
+  margin-bottom: 25px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .form-panel .momey-box .momey-item {
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  font-size: 16px;
+  width: 60px;
+  border-radius: 15px;
+  color: #f0b750;
+  border: 1px solid #f0b750;
+  margin-right: 40px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .form-panel .momey-box .radio-active {
+  color: white;
+  background: #f0b750;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .form-panel .money-input {
+  display: flex;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-item .form-panel .money-input div {
+  width: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .form-group #tobox2 {
+  margin: 50px 0;
+  width: 300px;
+  background: #eba016;
+  outline: none;
+  border: none;
+  color: white;
+  height: 40px;
+  line-height: 35px;
+  border-radius: 20px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .agreement {
+  display: flex;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .box1-form form .agreement a {
+  color: #44aded!important;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .donation-explan {
+  background: #f9f9f9;
+  padding: 40px 30px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .donation-explan .explan-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .donation-explan .explan-info {
+  margin-bottom: 40px;
+}
+.donation .content .content-box .box-list .list-step-content .step-box1 .donation-else .else-info .info-item {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 .donation .content .content-box .box-list .list-step-content .step-box2 {
   width: 100%;
@@ -145,5 +224,12 @@
   margin-left: 30px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+.donation .content .content-box .box-list .list-searchbox {
+  margin: 40px 0 40px;
+}
+.donation .content .content-box .box-list .list-searchbox form {
+  display: flex;
   justify-content: space-between;
 }

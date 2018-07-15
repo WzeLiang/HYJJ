@@ -12,11 +12,12 @@
   justify-content: space-between;
 }
 .project .content .content-box .box-list .list-specialcontainer .special-explain .explain-img {
-  width: 635px;
-  margin-right: 30px;
+  width: 570px;
+  margin-right: 20px;
 }
 .project .content .content-box .box-list .list-specialcontainer .special-explain .explain-img img {
   margin-bottom: 10px ;
+  width: 570px;
 }
 .project .content .content-box .box-list .list-specialcontainer .special-explain .explain-article {
   display: flex;
@@ -31,7 +32,7 @@
   margin: 12px auto 15px ;
 }
 .project .content .content-box .box-list .list-specialcontainer .special-explain .explain-article .article-box .article-info {
-  font-size: 15px;
+  font-size: 13px;
 }
 .project .content .content-box .box-list .list-specialcontainer .special-explain .explain-article .article-box .article-info p {
   margin-bottom: 10px;
@@ -50,4 +51,128 @@
 }
 .project .content .content-box .box-list .list-specialcontainer .special-harvest .harvest-list .harvest-item .item-content .content-info {
   font-size: 15px;
+}
+.project .content .content-box .box-list .list-trust {
+  padding-top: 50px;
+}
+.project .content .content-box .box-list .list-trust .trust-mode {
+  padding: 20px 40px;
+}
+.project .content .content-box .box-list .list-trust .trust-mode .mode-title {
+  margin: 30px auto;
+}
+.project .content .content-box .box-list .list-trust .trust-mode .mode-item {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+.project .content .content-box .box-list .list-trust .trust-mode .mode-item .item-index {
+  font-size: 20px;
+  margin-right: 30px;
+}
+.project .content .content-box .box-list .list-trust .trust-mode .mode-item .item-keywords {
+  font-size: 20px;
+  margin: 0 20px;
+}
+.project .content .content-box .box-list .list-trust .trust-process {
+  width: 1000px;
+  min-width: 1000px;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box {
+  margin: 0 auto;
+  width: 800px;
+  height: 250px;
+  border-top: 1px #d2b880 dashed;
+  border-bottom: 1px #d2b880 dashed;
+  border-right: 1px #d2b880 dashed;
+  position: relative;
+  overflow: visible;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step {
+  text-align: center;
+  font-size: 16px;
+  width: 200px;
+  height: 160px;
+  position: absolute;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step .step-numb {
+  font-size: 20px;
+  line-height: 50px;
+  margin: 0 auto;
+  width: 50px;
+  height: 65px;
+  color: white;
+  text-align: center;
+  background: url("../images/project-iconback.png") no-repeat top left;
+  background-size: contain;
+  position: relative;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step .step-numb span {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  bottom: -2px;
+  left: 23px;
+  border-radius: 2px;
+  background: #d2b880;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step .step-name {
+  background: white;
+  margin-top: 10px;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step .step-explan {
+  background: white;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step1 {
+  top: -28px;
+  left: 0px;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step2 {
+  top: -28px;
+  left: 220px;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step3 {
+  top: -28px;
+  left: 440px;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step4 {
+  top: -28px;
+  left: 700px;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step5 {
+  bottom: -135px;
+  left: 700px;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step6 {
+  bottom: -135px;
+  left: 440px;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step7 {
+  bottom: -135px;
+  left: 220px;
+}
+.project .content .content-box .box-list .list-trust .trust-process .process-box .process-step8 {
+  bottom: -135px;
+  left: 0px;
+}
+.project .content .content-box .box-list .list-trust .turst-result .result-box .box-name {
+  font-size: 20px;
+}
+.project .content .content-box .box-list .list-trust .turst-result .result-box .box-explan {
+  margin: 20px 0;
+}
+.project .content .content-box .box-list .list-trust .turst-result .result-box .box-content {
+  display: flex;
+  justify-content: space-between;
+}
+.project .content .content-box .box-list .list-trust .turst-result .result-box .box-content .content-table {
+  margin-left: 20px;
+}
+.project .content .content-box .box-list .list-trust .turst-result .result-box .box-content .content-table table {
+  height: 300px;
+}
+.project .content .content-box .box-list .list-trust .turst-result .result-box .box-content .content-table table tr td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
 }

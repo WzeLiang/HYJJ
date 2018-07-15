@@ -14,10 +14,11 @@
               display: flex;
               justify-content: space-between;
               .explain-img{
-                width: 635px;
-                margin-right: 30px;
+                width: 570px;
+                margin-right: 20px;
                 img{
                   margin-bottom:10px ;
+                  width: 570px;
                 }
               }
               .explain-article{
@@ -31,7 +32,7 @@
                     margin: 12px auto 15px ;
                   }
                   .article-info{
-                    font-size: 15px;
+                    font-size: 13px;
                     p{
                       margin-bottom: 10px;
                     }
@@ -62,6 +63,142 @@
                }
              }
         }
+           .list-trust{
+             padding-top: 50px;
+             .trust-mode{
+               .mode-title{
+                 margin: 30px auto;
+               }
+               padding:20px 40px;
+               .mode-item{
+                 font-size: 16px;
+                 letter-spacing: 1px;
+                 margin-bottom: 25px;
+                 .item-index{
+                   font-size: 20px;
+                   margin-right: 30px;
+                 }
+                 .item-keywords{
+                   font-size: 20px;
+                   margin: 0 20px;
+                 }
+               }
+             }
+             .trust-process{
+               width: 1000px;
+               min-width: 1000px;
+               .process-box{
+                 margin: 0 auto;
+                 width: 800px;
+                 height: 250px;
+                 border-top: 1px #d2b880 dashed;
+                 border-bottom: 1px #d2b880 dashed;
+                 border-right:1px #d2b880 dashed;
+                 position: relative;
+                 overflow: visible;
+                .process-step{
+                  text-align: center;
+                  font-size: 16px;
+                  width: 200px;
+                  height: 160px;
+                  position: absolute;
+                  .step-numb{
+                    font-size: 20px;
+                    line-height: 50px;
+                    margin: 0 auto;
+                    width: 50px;
+                    height: 65px;
+                    color: white;
+                    text-align: center;
+                    background: url("../images/project-iconback.png") no-repeat top left;
+                    background-size: contain;
+                    position: relative;
+                    span{
+                      position: absolute;
+                      width: 4px;
+                      height: 4px;
+                      bottom: -2px;
+                      left: 23px;
+                      border-radius: 2px;
+                      background: #d2b880;
+                    }
+                  }
+                  .step-name{
+                    background: white;
+                    margin-top: 10px;
+                  }
+                  .step-explan{
+                    background: white;
+                  }
+                }
+                 .process-step1{
+                   top: -28px;
+                   left: 0px;
+                 }
+                 .process-step2{
+                   top: -28px;
+                   left: 220px;
+                 }
+                 .process-step3{
+                   top: -28px;
+                   left: 440px;
+                 }
+                 .process-step4{
+                   top: -28px;
+                   left: 700px;
+                 }
+                 .process-step5{
+                   bottom: -135px;
+                   left: 700px;
+                 }
+                 .process-step6{
+                   bottom: -135px;
+                   left: 440px;
+                 }
+                 .process-step7{
+                   bottom: -135px;
+                   left: 220px;
+                 }
+                 .process-step8{
+                   bottom: -135px;
+                   left: 0px;
+                 }
+               }
+             }
+             .turst-result{
+               .result-title{
+
+               }
+               .result-box{
+                 .box-name{
+                  font-size: 20px;
+                 }
+                 .box-explan{
+                  margin: 20px 0;
+                 }
+                 .box-content{
+                   display: flex;
+                   justify-content: space-between;
+                   .content-table{
+                     margin-left: 20px;
+                     table{
+                       height: 300px;
+                       tr{
+                        td{
+                          &:nth-child(1){
+                            width: 100px;
+                            text-align: center;
+                            vertical-align: middle;
+                          }
+                        }
+                       }
+                     }
+                   }
+                 }
+               }
+             }
+           }
+
       }
     }
   }
