@@ -5,7 +5,9 @@
     <title>在线捐赠</title>
     <link rel="icon" type="image/x-icon" href="../images/title-logo.png" />
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/bootstrap-datepicker.min.css">
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../src/bootstrap-datepicker.min.js"></script>
     <script src="../js/base.js"></script>
     <script src="../js/donation.js"></script>
     <link rel="stylesheet" href="../css/base.css">
@@ -121,7 +123,7 @@
                                     </div>
                                     <div class="form-panel">
                                         <div class="radio-box momey-box">
-                                           <div class="momey-item radio-active">￥10</div>
+                                           <div class="momey-item ">￥10</div>
                                            <div class="momey-item">￥20</div>
                                            <div class="momey-item">￥50</div>
                                            <div class="momey-item">￥100</div>
@@ -136,7 +138,7 @@
                                         <div><span class="form-must">*</span> 是否匿名</div>
                                     </div>
                                     <div class="form-panel anonymous-box">
-                                        <div class="box-item item-active">是</div>
+                                        <div class="box-item ">是</div>
                                         <div class="box-item">否</div>
                                     </div>
                                 </div>
@@ -145,12 +147,12 @@
                                         <div><span class="form-must">*</span> 是否需要捐赠票据</div>
                                     </div>
                                     <div class="form-panel bill-box">
-                                        <div class="box-item item-active">是</div>
+                                        <div class="box-item ">是</div>
                                         <div class="box-item">否</div>
                                     </div>
                                 </div>
                                 <div class=" form-group agreement">
-                                    <input type="radio">我已阅读并同意弘毅扶贫慈善基金会的 <a href="#">《捐赠协议》</a>
+                                    <input type="radio" style="margin: 5px 5px 0 0">我已阅读并同意弘毅扶贫慈善基金会的 <a href="#">《捐赠协议》</a>
                                 </div>
                                 <div class="form-group text-center ">
                                     <button type="button" id="tobox2">确认捐赠</button>
@@ -234,15 +236,15 @@
             <div class="box-list">
                 <div class="list-searchbox">
                     <form class="form-inline" role="form">
-                        <div class="form-group">
-                            <label for="f1" >账号</label>
-                            <input type="text" id="f1" class="form-control" placeholder="请输入账号"/>
+                        <div class="form-group search-name">
+                            <label for="f1" >捐赠来源</label>
+                            <input type="text" id="f1" class="form-control" placeholder="请输入捐赠人姓名或捐赠单位"/>
                         </div>
-                        <div class="form-group">
-                            <label for="f2">密码</label>
-                            <input type="password" id="f2" class="form-control" placeholder="请输入密码"/>
+                        <div class="form-group search-date">
+                            <label for="datetimeStart">捐赠日期</label>
+                            <input  id="datetimeStart" class="form-control" placeholder="请选择捐赠日期"/>
                         </div>
-                        <button type="submit" class="btn btn-danger">进入</button>
+                        <button type="submit" class="search-btn">进入</button>
                     </form>
                 </div>
                 <div class="list-table">
@@ -326,5 +328,18 @@
         </div>
     </div>
 </div>
+    <script src="../src/bootstrap-datepicker.zh-CN.min.js"></script>
+    <script>
+        $(function () {
+
+            $('#datetimeStart').datepicker({
+                language: 'zh-CN',
+                autoclose: true,
+                format:"yyyy-mm-dd",
+                todayHighlight:true
+
+            });
+            })
+    </script>
 </body>
 </html>

@@ -251,6 +251,32 @@
           form{
             display: flex;
             justify-content: space-between;
+              .search-name,.search-date{
+                width: 400px;
+                input{
+                  margin-left: 20px;
+                  width: 300px;
+                }
+              }
+              .search-btn{
+                outline: none;
+                border: none;
+                width: 80px;
+                height: 40px;
+                line-height: 32px;
+                text-align: center;
+                background: #eba016;
+                color: white;
+                border-radius: 20px;
+              }
+
+          }
+        }
+        .list-table{
+          tr{
+            &:nth-child(1){
+              background: #f4f4f4;
+            }
           }
         }
       }

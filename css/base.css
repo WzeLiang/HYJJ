@@ -18,12 +18,31 @@ html {
 }
 .headerbox .header .header-tablist .tab-item {
   font-size: 1rem;
-  padding: .5rem 1.5rem;
+  padding: 20px 24px;
+  position: relative;
 }
 .headerbox .header .header-tablist .tab-item a {
   display: block;
   text-decoration: none;
   color: black;
+}
+.headerbox .header .header-tablist .tab-item span {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  left: 45px;
+  bottom: 0;
+  background: white;
+}
+.headerbox .header .header-tablist .tab-item:nth-child(1) span {
+  left: 30px;
+}
+.headerbox .header .header-tablist .visit {
+  color: #b98d3a!important;
+}
+.headerbox .header .header-tablist .visit span {
+  background: #b98d3a;
 }
 .headerbox .header .header-tablist .visit a {
   color: #b98d3a!important;

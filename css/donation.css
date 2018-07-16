@@ -233,3 +233,26 @@
   display: flex;
   justify-content: space-between;
 }
+.donation .content .content-box .box-list .list-searchbox form .search-name,
+.donation .content .content-box .box-list .list-searchbox form .search-date {
+  width: 400px;
+}
+.donation .content .content-box .box-list .list-searchbox form .search-name input,
+.donation .content .content-box .box-list .list-searchbox form .search-date input {
+  margin-left: 20px;
+  width: 300px;
+}
+.donation .content .content-box .box-list .list-searchbox form .search-btn {
+  outline: none;
+  border: none;
+  width: 80px;
+  height: 40px;
+  line-height: 32px;
+  text-align: center;
+  background: #eba016;
+  color: white;
+  border-radius: 20px;
+}
+.donation .content .content-box .box-list .list-table tr:nth-child(1) {
+  background: #f4f4f4;
+}

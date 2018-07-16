@@ -11,4 +11,16 @@ $(function () {
         $(".list-step-title .step-item .item-numb").eq(2).addClass("numb-active")
 
     })
+    $(".momey-box .momey-item").eq(0).addClass("radio-active");
+    $(".anonymous-box .box-item").eq(1).addClass("item-active");
+    $(".bill-box .box-item").eq(1).addClass("item-active");
+    $(".momey-box .momey-item").click(function () {
+        $(this).addClass("radio-active").siblings().removeClass("radio-active");
+    })
+    $(".anonymous-box .box-item").click(function () {
+        $(this).addClass("item-active").siblings().removeClass("item-active");
+    })
+    $(".bill-box .box-item").click(function () {
+        $(this).addClass("item-active").siblings().removeClass("item-active");
+    })
 })
