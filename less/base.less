@@ -68,13 +68,15 @@ html{
   }
 }
 .footerbox{
-    z-index: 9999;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    background: #232323;
-    bottom: 0;
+    //z-index: 9999;
+    //position: fixed;
+    //left: 0;
+    //bottom: 0;
+  width: 100%;
+  background: #232323;
   .footer{
+    min-width: 1000px;
+    width: 1000px;
     padding: 20px 0;
     color: white;
     width: 1000px;
@@ -121,10 +123,12 @@ html{
 .content{
   width: 1000px;
   min-width: 1000px;
-  margin: 0 auto 40px;
+  margin: 0 auto;
+  min-height: 440px;
   .content-tab{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
     .tab-item{
       padding: 20px 15px;
       position: relative;
@@ -145,7 +149,29 @@ html{
       }
     }
   }
+  .tab-2{
+    .tab-item{
+      width: 500px!important;
+    }
+  }
+  .tab-3{
+    .tab-item{
+      width: 332px!important;
+    }
+  }
+  .tab-4{
+    .tab-item{
+      width: 250px!important;
+    }
+  }
   .content-box{
+    width: 100%;
+    .box-pageinfo{
+      width: 1000px;
+      min-width: 1000px;
+      margin: 50px auto;
+      min-height: 260px;
+    }
     .box-list{
       transition: all .5s ease;
       position: relative;
@@ -153,21 +179,28 @@ html{
       .list-ul{
         transition: all 1s ease;
         .ul-li{
-          padding: 0;
-          display: flex;
-          list-style: disc;
-          justify-content: space-between;
-          padding: 30px 20px;
-          box-shadow: 1px 1px 1px rgba(0, 0, 0, .03);
-          transition: .5s;
-          &:hover{
-            //transform: translate3d(0, -5px, 0);
-            transform: scale(1.01,1.1);
-            box-shadow: 0 5px 10px rgba(0,0,0,.1);
-            .li-info{
-              color: #b98d3a;
-            }
-          }
+         a{
+           display: flex;
+           justify-content: space-between;
+           padding: 30px 20px;
+           box-shadow: 1px 1px 1px rgba(0, 0, 0, .03);
+           transition: .5s;
+           .li-info{
+             &:before{
+               content: "●";
+               margin-right: 10px;
+             }
+           }
+           &:hover{
+             //transform: translate3d(0, -5px, 0);
+             transform: scale(1.01,1.1);
+             box-shadow: 0 5px 10px rgba(0,0,0,.1);
+             .li-info{
+               color: #b98d3a;
+
+             }
+           }
+         }
         }
       }
       .list-content{
@@ -265,12 +298,14 @@ html{
 }
 
 .home,.about,.news,.publicmsg,.project,.donation,.contactus{
-  padding-bottom: 180px;
+  //padding-bottom: 180px;
 }
 a{
   display: block;
   color: black!important;
   text-decoration: none!important;
+  width: 100%;
+  height: 100%;
 }
 ul{
   padding: 0;
@@ -307,8 +342,11 @@ ul{
 }
 .h-title{
   font-size: 24px;
-  margin: 100px auto;
+  margin: 60px auto;
 }
 .form-must{
   color: red;
+}
+.hidden{
+  display: none;
 }

@@ -63,14 +63,11 @@ html {
   min-width: 1200px;
 }
 .footerbox {
-  z-index: 9999;
-  position: fixed;
   width: 100%;
-  left: 0;
   background: #232323;
-  bottom: 0;
 }
 .footerbox .footer {
+  min-width: 1000px;
   padding: 20px 0;
   color: white;
   width: 1000px;
@@ -110,11 +107,12 @@ html {
 .content {
   width: 1000px;
   min-width: 1000px;
-  margin: 0 auto 40px;
+  margin: 0 auto;
+  min-height: 440px;
 }
 .content .content-tab {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .content .content-tab .tab-item {
   padding: 20px 15px;
@@ -135,6 +133,24 @@ html {
 .content .content-tab .tab-active span {
   background: #b98d3a;
 }
+.content .tab-2 .tab-item {
+  width: 500px!important;
+}
+.content .tab-3 .tab-item {
+  width: 332px!important;
+}
+.content .tab-4 .tab-item {
+  width: 250px!important;
+}
+.content .content-box {
+  width: 100%;
+}
+.content .content-box .box-pageinfo {
+  width: 1000px;
+  min-width: 1000px;
+  margin: 50px auto;
+  min-height: 260px;
+}
 .content .content-box .box-list {
   transition: all .5s ease;
   position: relative;
@@ -143,20 +159,22 @@ html {
 .content .content-box .box-list .list-ul {
   transition: all 1s ease;
 }
-.content .content-box .box-list .list-ul .ul-li {
-  padding: 0;
+.content .content-box .box-list .list-ul .ul-li a {
   display: flex;
-  list-style: disc;
   justify-content: space-between;
   padding: 30px 20px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.03);
   transition: .5s;
 }
-.content .content-box .box-list .list-ul .ul-li:hover {
+.content .content-box .box-list .list-ul .ul-li a .li-info:before {
+  content: "●";
+  margin-right: 10px;
+}
+.content .content-box .box-list .list-ul .ul-li a:hover {
   transform: scale(1.01, 1.1);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-.content .content-box .box-list .list-ul .ul-li:hover .li-info {
+.content .content-box .box-list .list-ul .ul-li a:hover .li-info {
   color: #b98d3a;
 }
 .content .content-box .box-list .list-content {
@@ -246,19 +264,12 @@ html {
   line-height: 30px;
   font-size: 14px;
 }
-.home,
-.about,
-.news,
-.publicmsg,
-.project,
-.donation,
-.contactus {
-  padding-bottom: 180px;
-}
 a {
   display: block;
   color: black!important;
   text-decoration: none!important;
+  width: 100%;
+  height: 100%;
 }
 ul {
   padding: 0;
@@ -295,8 +306,11 @@ ul {
 }
 .h-title {
   font-size: 24px;
-  margin: 100px auto;
+  margin: 60px auto;
 }
 .form-must {
   color: red;
+}
+.hidden {
+  display: none;
 }
