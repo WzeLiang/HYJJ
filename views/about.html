@@ -6,6 +6,8 @@
     <link rel="icon" type="image/x-icon" href="../images/title-logo.png" />
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../src/extendPagination.js"></script>
     <script src="../js/base.js"></script>
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/about.css">
@@ -103,18 +105,29 @@
 
                 </ul>
                 <div class="page text-center">
-                    <div class="page-box ">
-                        <div class="page-item">上一页</div>
-                        <div class="page-item active">1</div>
-                        <div class="page-item">2</div>
-                        <div class="page-item">3</div>
-                        <div class="page-item">4</div>
-                        <div class="page-item">5</div>
-                        <div class="page-item">6</div>
-                        <div class="page-item">下一页</div>
+                    <div class="page-box1  page-box">
+
                     </div>
                 </div>
-                <div class="list-content"></div>
+                <script>
+                    $(function () {
+                        $('.page-box1').extendPagination({
+
+                            totalCount: 100,//数据总条数
+                            limit: 5,//每页数据
+
+                            callback: function (curr, limit, totalCount) {
+
+                                createTable(curr, limit, totalCount);
+
+                            }
+
+                        });
+                    })
+                    function createTable(currPage, limit, total) {
+                        console.log(currPage)
+                    }
+                </script>
             </div>
             <div class="box-list box-list2">
                 <ul class="list-ul">

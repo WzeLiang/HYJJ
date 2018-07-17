@@ -177,17 +177,6 @@ html {
 .content .content-box .box-list .list-ul .ul-li a:hover .li-info {
   color: #b98d3a;
 }
-.content .content-box .box-list .list-content {
-  transition: all .5s ease;
-  position: absolute;
-  width: 1200px;
-  min-width: 1200px;
-  left: 1200px;
-  top: 0;
-  height: 600px;
-  border: 1px solid black;
-  background: white;
-}
 .content .content-box .box-acitve {
   display: block;
 }
@@ -201,21 +190,24 @@ html {
   font-size: 14px;
 }
 .page .page-box {
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
-.page .page-box .page-item {
+.page .page-box .pagination li {
+  margin-right: 10px;
+}
+.page .page-box .pagination li a {
   padding: 5px 10px;
   border: 1px solid rgba(199, 154, 87, 0.51);
   margin-left: 10px;
 }
-.page .page-box .page-item:hover {
+.page .page-box .pagination li a:hover {
   border: 1px solid #c79a57;
   background: rgba(199, 154, 87, 0.51);
 }
-.page .page-box .active {
+.page .page-box .pagination li.active a {
   background: #c79a57;
   color: white;
 }

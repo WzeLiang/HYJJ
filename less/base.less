@@ -203,17 +203,7 @@ html{
          }
         }
       }
-      .list-content{
-        transition: all .5s ease;
-        position: absolute;
-        width: 1200px;
-        min-width: 1200px;
-        left: 1200px;
-        top: 0;
-        height: 600px;
-        border: 1px solid black;
-        background: white;
-      }
+
     }
     .box-acitve{
       display: block;
@@ -223,30 +213,63 @@ html{
     }
   }
 }
+//.page{
+//  width: 1000px;
+//  min-width: 1000px;
+//  margin: 50px auto;
+//  font-size: 14px;
+//  .page-box{
+//    width: 500px;
+//    margin: 0 auto;
+//    display: flex;
+//    justify-content: center;
+//    .page-item{
+//      padding: 5px 10px;
+//      border: 1px solid rgba(199,154,87,.51);
+//      margin-left: 10px;
+//      &:hover{
+//        border: 1px solid rgba(199,154,87,1);
+//        background: rgba(199,154,87,.51);
+//      }
+//    }
+//    .active{
+//      background: rgba(199,154,87,1);
+//      color: white;
+//    }
+//  }
+//}
 .page{
-  width: 1000px;
-  min-width: 1000px;
-  margin: 50px auto;
-  font-size: 14px;
-  .page-box{
-    width: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    .page-item{
-      padding: 5px 10px;
-      border: 1px solid rgba(199,154,87,.51);
-      margin-left: 10px;
-      &:hover{
-        border: 1px solid rgba(199,154,87,1);
-        background: rgba(199,154,87,.51);
+    width: 1000px;
+    min-width: 1000px;
+    margin: 50px auto;
+    font-size: 14px;
+    .page-box{
+      width: 700px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      .pagination{
+        li{
+          margin-right: 10px;
+          a{
+            padding: 5px 10px;
+            border: 1px solid rgba(199,154,87,.51);
+            margin-left: 10px;
+            &:hover{
+              border: 1px solid rgba(199,154,87,1);
+              background: rgba(199,154,87,.51);
+            }
+          }
+
+        }
+        li.active{
+          a{
+            background: rgba(199,154,87,1);
+            color: white;
+          }
+        }
       }
     }
-    .active{
-      background: rgba(199,154,87,1);
-      color: white;
-    }
-  }
 }
 //项目item
 .project-item{

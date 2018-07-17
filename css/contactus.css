@@ -1,0 +1,110 @@
+.contactus .content .content-box .box-list .list-companymsg {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.contactus .content .content-box .box-list .list-companymsg .msg-section {
+  width: 500px;
+}
+.contactus .content .content-box .box-list .list-companymsg .msg-section .section-box:nth-child(1) {
+  margin-bottom: 20px;
+}
+.contactus .content .content-box .box-list .list-companymsg .msg-section .section-box .box-title {
+  font-size: 19px;
+  margin: 12px auto 15px;
+}
+.contactus .content .content-box .box-list .list-companymsg .msg-section .section-box .box-info {
+  font-size: 14px;
+}
+.contactus .content .content-box .box-list .list-companymsg .msg-section .section-box .box-info div {
+  margin-bottom: 2px;
+}
+.contactus .content .content-box .box-list .list-companymsg .msg-section .section-box .box-info .info-tel {
+  display: flex;
+  justify-content: left;
+}
+.contactus .content .content-box .box-list .list-companymsg .msg-section .section-box .box-info .info-tel .tel-list {
+  margin-left: 5px;
+}
+.contactus .content .content-box .box-list .list-companymsg .msg-section .section-box .box-info .wx-qrcode {
+  margin-top: 30px;
+}
+.contactus .content .content-box .box-list .list-companymsg .msg-img {
+  margin-left: 20px;
+}
+.contactus .content .content-box .box-list .list-companymsg .msg-img img {
+  width: 500px;
+}
+.contactus .content .content-box .box-list .list-volunteersign {
+  padding: 50px 0;
+}
+.contactus .content .content-box .box-list .list-volunteersign form {
+  width: 700px;
+  margin: 0 auto;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-title {
+  font-size: 20px;
+  margin: 20px auto;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-item .sex-box {
+  display: flex;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-item .sex-box .box-item {
+  width: 70px;
+  height: 34px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 18px;
+  color: #b1dc4e;
+  margin-right: 40px;
+  border: 1px solid #b1dc4e;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-item .sex-box .item-active {
+  color: white;
+  background: #b1dc4e;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-item .form-text {
+  width: 250px;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-item .form-panel {
+  width: 738px;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-item .form-panel .date-box {
+  display: flex;
+  margin-bottom: 25px;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-item .form-panel .date-box .date-item {
+  text-align: center;
+  line-height: 32px;
+  height: 34px;
+  font-size: 16px;
+  width: 100px;
+  border-radius: 18px;
+  color: #f0b750;
+  border: 1px solid #f0b750;
+  margin-right: 40px;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-item .form-panel .date-box .radio-active {
+  color: white;
+  background: #f0b750;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .form-group #join {
+  margin: 50px 0 0;
+  width: 200px;
+  background: #eba016;
+  outline: none;
+  border: none;
+  color: white;
+  height: 36px;
+  line-height: 34px;
+  border-radius: 20px;
+}
+.contactus .content .content-box .box-list .list-volunteersign form .agreement {
+  font-size: 12px;
+  padding-left: 10px;
+}
