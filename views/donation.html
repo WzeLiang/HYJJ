@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../src/bootstrap-datepicker.min.css">
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../src/bootstrap-datepicker.min.js"></script>
     <script src="../js/base.js"></script>
     <script src="../js/donation.js"></script>
@@ -349,5 +350,41 @@
             });
             })
     </script>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!--<h5 class="modal-title text-center" id="exampleModalLongTitle">使用<span>微信</span>支付 <span>￥100</span></h5>-->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="title">使用微信支付 <span class="pay-numb">￥1000</span></div>
+                    <div class="qrcode text-center">
+                        <img src="../images/pay-qrcode.gif" alt="">
+                    </div>
+                    <div class="tips text-white">
+                        <div class="tip-img">
+                            <img src="../images/scavenging.png" alt="">
+                        </div>
+                        <div class="tips-msg">
+                            <div>请使用微信扫一扫</div>
+                            <div>扫描二维码完成支付</div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="modal-footer">-->
+                    <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+                    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -253,3 +253,33 @@
 .donation .content .content-box .box-list .list-table tr:nth-child(1) {
   background: #f4f4f4;
 }
+#exampleModalCenter .modal-body .title {
+  text-align: center;
+}
+#exampleModalCenter .modal-body .title .pay-numb {
+  color: #f78340;
+}
+#exampleModalCenter .modal-body .qrcode {
+  margin: 10px auto;
+}
+#exampleModalCenter .modal-body .qrcode img {
+  width: 150px;
+}
+#exampleModalCenter .modal-body .tips {
+  width: 240px;
+  margin: 0 auto;
+  background: #1985f1;
+  display: flex;
+  padding: 10px 20px;
+}
+#exampleModalCenter .modal-body .tips .tip-img {
+  width: 20px;
+}
+#exampleModalCenter .modal-body .tips .tip-img img {
+  width: 50px;
+}
+#exampleModalCenter .modal-body .tips .tips-msg {
+  margin: 0 auto;
+  font-size: 14px;
+  margin-left: 50px;
+}
