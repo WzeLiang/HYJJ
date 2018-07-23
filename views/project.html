@@ -452,11 +452,16 @@
             //     return '基金:' + ((stateData)[obj.id] && (stateData)[obj.id].baifenbi || obj.id) + '<br/>name:' + obj.name;
             // }
             stateTipHtml: function (mapData, obj) {
+                $.ajax({
+                    url:""
+                })
                 var _value = mapData[obj.id].value;
                 var _idx = mapData[obj.id].index;
                 var active = '';
+                var aaa="打算打打阿萨德阿萨德阿萨德阿萨德啊"
                 _idx < 4 ? active = 'active' : active = '';
-                var tipStr = '<div class="mapInfo"><i class="' + active + '">' + _idx + '</i><span>' + obj.name + '</span><b>' + _value + '</b></div>';
+                //var tipStr = '<div class="mapInfo" style="width:2px;height: 200px"><i class="' + active + '">' + _idx + '</i><span>' + obj.name + '</span><b>' + _value + '</b></div>';
+                var tipStr = '<div class="mapInfo" ><div class="' + active + '">' + aaa + '</div></div>';
                 return tipStr;
             }
         });

@@ -5,6 +5,8 @@
     <title>首页</title>
     <link rel="icon" type="image/x-icon" href="../images/title-logo.png" />
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/home.css">
 </head>
@@ -48,8 +50,36 @@
             </div>
         </div>
         <div class="banner">
-            <div class="banner-name">首页</div>
-            <img src="../images/home-banner1.png" class="img-fluid" alt="">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- 指示符 -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <!-- 轮播图片 -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!--<img src="../images/home-banner1.png" class="img-fluid">-->
+                        <div class="carousel-caption">
+                            <h3>首页</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--<img src="../images/home-banner1.png" class="img-fluid">-->
+                        <div class="carousel-caption">
+                            <h3>首页</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--<img src="../images/home-banner1.png" class="img-fluid">-->
+                        <div class="carousel-caption">
+                            <h3>首页</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="content-box">
             <div class="box-list ">
